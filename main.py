@@ -19,7 +19,7 @@ def count_vowels(string:str) -> int:
             count += string.count(v)
         status = False
 
-    return print(count)
+    return count
 
 
 if __name__ == "__main__" :
