@@ -11,7 +11,7 @@ def count_vowels(string:str) -> int:
         Returns:
             int: The number of vowels in the string.
         """
-    print(f'Irei contar aqui {stringF}\n')
+    ##print(f'Irei contar aqui {stringF}\n')
     count = 0
     vowels = {"a","e","i","o","u"}
     status = True
@@ -19,10 +19,10 @@ def count_vowels(string:str) -> int:
     while status:
         for v in vowels:
             count += stringF.count(v)
-            print(f'Ja encontrei {count} vogais')
+            ##print(f'Ja encontrei {count} vogais')
         status = False
 
-    return print(count)
+    return count
 
 
 if __name__ == "__main__" :
